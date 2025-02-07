@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>queryfrom</title>
+    <p>Order pc for new Hire </p>
+</head>
+<body>
+    <form>
+        <label for ="fname">Requester Name</label> <input type="text" placeholder="enter your name" id="fname" name="fname">
+        <label for="Remail">Requester E-mail id </label><input type="text" placeholder="enter your E-mail" id="Remail" name="Remail">
+        <label for="Hjobreq">Newhire job req.</label><input type="text" placeholder="enter your hire Jobreq" id="Hjobreq" name="Hjobreq">
+        <label for="Hiredate"> Hire date</label><input type="date" placeholder="enter your hire Jobreq" id="Hiredate" name="Hiredate">
+        <label for="Department">Choose a Department name:</label>
+        <select id="Department" name="Department">
+            <option value="" disabled selected>Select a fruit</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+        
+        
+        
+
+        
+    </form>
+</body>
+</html>
