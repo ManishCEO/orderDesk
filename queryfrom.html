@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>queryfrom</title>
     <p>Order pc for new Hire </p>
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen" >
+        
 </head>
 <body>
+  <div>
     <form>
+        <div class="label">
         <label for ="fname">Requester Name</label> <input type="text" placeholder="enter your name" id="fname" name="fname">
         <label for="Remail">Requester E-mail id </label><input type="text" placeholder="enter your E-mail" id="Remail" name="Remail">
         <label for="Hjobreq">Newhire job req.</label><input type="text" placeholder="enter your hire Jobreq" id="Hjobreq" name="Hjobreq">
@@ -16,14 +20,26 @@
         <select id="Department" name="Department">
             <option value="" disabled selected>Select a Department</option>
             <option value="WPS">WPS</option>
-            <option value="KEF-controller">KEF-controller</option>
-            <option value="R&D Keysight Lab">R&D Keysight Lab</option>
+            <option value="KEP">KEF_controllership</option>
+            <option value="Keysight-Labs">Keysight Labs</option>
         </select>
-        
-        
-        
-
-        
+        <label for="Profile Type">Choose a Profile type:</label>
+        <select id="profile" name="profile">
+            <option value="" disabled selected>Select a Profile</option>
+            <option value="Tech">Technical</option>
+            <option value="NONTECH">Non-Technical</option>
+        </select>
+        <label for="Admin">Choose a Admin:</label>
+        <select id="Admin" name="Admin">
+            <option value="" disabled selected>Select a Admin</option>
+            <option value="Gurvinder Singh">Gurvinder Singh</option>
+            <option value="Rohit Sharma">Rohit Sharma</option>
+        </select>
+        <label for="MUCODE">MU-Code</label><input type="text" placeholder="" id="MUCODE" name="MUCODE">
+        <input type="submit">
+        </div>
     </form>
+</div>
+
 </body>
 </html>
